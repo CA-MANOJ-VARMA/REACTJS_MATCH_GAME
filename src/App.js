@@ -262,11 +262,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const imageListLength = imagesList.length
-    const randomIndexNumber = Math.floor(Math.random() * imageListLength)
-    console.log(randomIndexNumber)
-    const randomImageUrl = imagesList[randomIndexNumber].imageUrl
-    const randomImageId = imagesList[randomIndexNumber].id
+    const randomImageUrl = imagesList[0].imageUrl
+    const randomImageId = imagesList[0].id
     this.setState({
       randomImageUrlState: randomImageUrl,
       randomImageIdState: randomImageId,
