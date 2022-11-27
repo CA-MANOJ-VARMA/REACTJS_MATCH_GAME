@@ -66,7 +66,7 @@ body {
 }
 
 .css-randomImage-image {
-  width: 600px;
+  width: 350px;
   border-radius: 10px;
 }
 /* RANDOM IMAGE -END */
@@ -87,6 +87,10 @@ body {
   font-size: 20px;
 }
 
+.css-TabList-Button:hover {
+  cursor: pointer;
+}
+
 .css-TabList-active {
   color: orange;
   border-bottom-color: orange;
@@ -104,7 +108,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 700px;
+  width: 500px;
 }
 
 .css-TabListImageView-thumbnail-div {
@@ -112,7 +116,7 @@ body {
 }
 
 .css-thumbnail-image {
-  width: 100px;
+  width: 50px;
 }
 /* TABLISTIMAGEBIEW - END */
 
@@ -137,6 +141,10 @@ body {
   border-width: 0;
   padding: 5px;
   border-radius: 5px;
+}
+
+.css-GameOver-button-div:hover {
+  cursor: pointer;
 }
 
 .css-GameOver-image {
